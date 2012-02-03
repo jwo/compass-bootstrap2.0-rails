@@ -20,6 +20,7 @@ gem 'jquery-rails'
 
 group :production do
   gem 'therubyracer', '>= 0.9.8'
+  gem 'pg'
 end
 
 
