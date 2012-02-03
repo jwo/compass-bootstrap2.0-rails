@@ -1,0 +1,96 @@
+/*
+Syntax error: File to import not found or unreadable: bootstrap.
+              Load paths:
+                Compass::SpriteImporter
+                /Users/jwo/Projects/compass-bootstrap2/public/stylesheets/sass
+                /Users/jwo/Projects/compass-bootstrap2/app/assets/stylesheets
+                /Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/compass-0.11.7/frameworks/blueprint/stylesheets
+                /Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/compass-0.11.7/frameworks/compass/stylesheets
+        on line 14 of /Users/jwo/Projects/compass-bootstrap2/app/assets/stylesheets/application.scss
+
+9:  * compiled file, but it's generally better to create a new file per style scope.
+10:  *
+11:  *= require_self
+12:  *= require_tree .
+13: */
+14: @import "bootstrap";
+15: @import "bootstrap/responsive";
+16: @import "compass/css3/gradient";
+17: @import "compass/css3/box-shadow";
+18: 
+19: .jumbotron {
+
+Backtrace:
+/Users/jwo/Projects/compass-bootstrap2/app/assets/stylesheets/application.scss:14
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/sass-3.1.12/lib/sass/tree/import_node.rb:64:in `rescue in import'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/sass-3.1.12/lib/sass/tree/import_node.rb:42:in `import'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/sass-3.1.12/lib/sass/tree/import_node.rb:25:in `imported_file'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:149:in `rescue in visit_import'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:154:in `visit_import'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/sass-3.1.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/sass-3.1.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/sass-3.1.12/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/sass-3.1.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/sass-3.1.12/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:47:in `visit_root'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/sass-3.1.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/sass-3.1.12/lib/sass/tree/root_node.rb:20:in `render'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/sass-3.1.12/lib/sass/engine.rb:300:in `_render'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/sass-3.1.12/lib/sass/engine.rb:248:in `block in render'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/sass-3.1.12/lib/sass/util.rb:297:in `silence_sass_warnings'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/sass-3.1.12/lib/sass/engine.rb:248:in `render'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/sass-3.1.12/lib/sass/plugin/compiler.rb:339:in `update_stylesheet'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/sass-3.1.12/lib/sass/plugin/compiler.rb:202:in `block in update_stylesheets'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/sass-3.1.12/lib/sass/plugin/compiler.rb:200:in `each'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/sass-3.1.12/lib/sass/plugin/compiler.rb:200:in `update_stylesheets'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/sass-3.1.12/lib/sass/plugin.rb:81:in `update_stylesheets'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/sass-3.1.12/lib/sass/plugin.rb:54:in `check_for_updates'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/sass-3.1.12/lib/sass/plugin/rack.rb:51:in `call'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/actionpack-3.2.1/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/actionpack-3.2.1/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/actionpack-3.2.1/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/actionpack-3.2.1/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/actionpack-3.2.1/lib/action_dispatch/middleware/cookies.rb:338:in `call'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/activerecord-3.2.1/lib/active_record/query_cache.rb:64:in `call'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/activerecord-3.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/actionpack-3.2.1/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:405:in `_run__4494098982695681453__call__3516206915645263391__callbacks'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/actionpack-3.2.1/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/actionpack-3.2.1/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/actionpack-3.2.1/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/actionpack-3.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/actionpack-3.2.1/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/railties-3.2.1/lib/rails/rack/logger.rb:26:in `call_app'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/railties-3.2.1/lib/rails/rack/logger.rb:16:in `call'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/actionpack-3.2.1/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/activesupport-3.2.1/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/actionpack-3.2.1/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/railties-3.2.1/lib/rails/engine.rb:479:in `call'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/railties-3.2.1/lib/rails/application.rb:220:in `call'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/railties-3.2.1/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/Users/jwo/.rvm/rubies/ruby-1.9.3-head/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/Users/jwo/.rvm/rubies/ruby-1.9.3-head/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/Users/jwo/.rvm/rubies/ruby-1.9.3-head/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: bootstrap.\A               Load paths:\A                 Compass::SpriteImporter\A                 /Users/jwo/Projects/compass-bootstrap2/public/stylesheets/sass\A                 /Users/jwo/Projects/compass-bootstrap2/app/assets/stylesheets\A                 /Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/compass-0.11.7/frameworks/blueprint/stylesheets\A                 /Users/jwo/.rvm/gems/ruby-1.9.3-head@jturner/gems/compass-0.11.7/frameworks/compass/stylesheets\A         on line 14 of /Users/jwo/Projects/compass-bootstrap2/app/assets/stylesheets/application.scss\A \A 9:  * compiled file, but it's generally better to create a new file per style scope.\A 10:  *\A 11:  *= require_self\A 12:  *= require_tree .\A 13: */\A 14: @import \"bootstrap\";\A 15: @import \"bootstrap/responsive\";\A 16: @import \"compass/css3/gradient\";\A 17: @import \"compass/css3/box-shadow\";\A 18: \A 19: .jumbotron {"; }
