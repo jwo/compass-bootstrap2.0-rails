@@ -19,7 +19,7 @@ In your application.scss import bootstrap using sass, not sprockets.
 @import "bootstrap/responsive";
 ```
 
-I wish it were more interesting, but Chris Epstein made compass drop dead simple to integrate.
+I wish it were more interesting, but Chris Eppstein made compass drop dead simple to integrate.
 
 Props
 =====
