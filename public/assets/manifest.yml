@@ -1,6 +1,6 @@
 ---
-!binary "cmFpbHMucG5n": rails-782b548cc1ba7f898cdad2d9eb8420d2.png
-!binary "YXBwbGljYXRpb24uanM=": application-3d7becb183603113a585f12ceec188fa.js
-!binary "YXBwbGljYXRpb24uY3Nz": application-61c2b8e2f9cf7cb7fee8dad5051dfb08.css
-!binary "Z2x5cGhpY29ucy1oYWxmbGluZ3Mtd2hpdGUucG5n": glyphicons-halflings-white-4fbb6a0b9b4e61912f486ac494a858f1.png
-!binary "Z2x5cGhpY29ucy1oYWxmbGluZ3MucG5n": glyphicons-halflings-2ed0cba6eca0f44737ab78f1e58bc11e.png
+rails.png: rails-782b548cc1ba7f898cdad2d9eb8420d2.png
+application.js: application-3d7becb183603113a585f12ceec188fa.js
+application.css: application-89623831c537343716aba46abdc5836f.css
+glyphicons-halflings-white.png: glyphicons-halflings-white-4fbb6a0b9b4e61912f486ac494a858f1.png
+glyphicons-halflings.png: glyphicons-halflings-2ed0cba6eca0f44737ab78f1e58bc11e.png
