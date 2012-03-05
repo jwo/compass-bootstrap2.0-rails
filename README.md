@@ -9,14 +9,14 @@ In your gem file, do these things:
 
 ```
 gem "compass-rails", ">= 0.12"
-gem "bootstrap-sass", :git => "git://github.com/thomas-mcdonald/bootstrap-sass.git", :branch => "2.0" 
+gem "bootstrap-sass", ">= 2.0"
 ```
 
 In your application.scss import bootstrap using sass, not sprockets. 
 
 ```
 @import "bootstrap";
-@import "bootstrap/responsive";
+@import "bootstrap-responsive";
 ```
 
 I wish it were more interesting, but Chris Eppstein made compass drop dead simple to integrate.
